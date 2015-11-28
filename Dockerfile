@@ -4,5 +4,5 @@ RUN gem install gollum
 RUN gem install redcarpet org-ruby 
 VOLUME /wiki
 WORKDIR /wiki
-gem install asciidoctor
+RUN gem install asciidoctor
 CMD ["gollum"]
