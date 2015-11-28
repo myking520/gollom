@@ -5,5 +5,5 @@ RUN gem install redcarpet org-ruby
 VOLUME /wiki
 WORKDIR /wiki
 RUN gem install asciidoctor
-CMD ["git","init"]
+CMD ["gollum"]
 EXPOSE 4567
