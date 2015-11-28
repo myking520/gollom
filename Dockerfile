@@ -6,3 +6,4 @@ VOLUME /wiki
 WORKDIR /wiki
 RUN gem install asciidoctor
 CMD ["gollum"]
+EXPOSE 4567
