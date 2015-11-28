@@ -5,5 +5,5 @@ RUN gem install redcarpet org-ruby
 VOLUME /wiki
 WORKDIR /wiki
 RUN gem install asciidoctor
-CMD ["git","clone","https://github.com/myking520/doc-gradle.git","/wiki"]
+CMD ["gollum","--no-edit"]
 EXPOSE 4567
